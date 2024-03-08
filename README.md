@@ -55,7 +55,10 @@ Our method is built upon stable diffusion and the network architecture is shown 
     ```bash
     cd ControlCom-Image-Composition
     pip install -r requirements.txt
+    
     pip install --upgrade mmdet mmpose
+    pip install taming-transformers-rom1504
+    
     cd src/taming-transformers
     python setup.py install
     ```
